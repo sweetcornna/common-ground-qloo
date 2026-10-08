@@ -1,0 +1,26 @@
+{
+  "mode": "demo",
+  "profiles": [
+    {
+      "seeds": [
+        {
+          "id": "movie-amelie",
+          "name": "Amélie",
+          "type": "movie"
+        }
+      ]
+    },
+    {
+      "seeds": [
+        {
+          "id": "movie-spirited-away",
+          "name": "Spirited Away",
+          "type": "movie"
+        }
+      ]
+    }
+  ],
+  "minutes": 60,
+  "focus": "balanced",
+  "excludeIds": []
+}

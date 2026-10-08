@@ -1,0 +1,230 @@
+{
+  "mode": "demo",
+  "source": "curated-demo",
+  "steps": [
+    {
+      "entity": {
+        "id": "artist-nujabes",
+        "name": "Nujabes",
+        "type": "artist",
+        "ranks": [
+          1,
+          1
+        ],
+        "rankScores": [
+          1,
+          1
+        ],
+        "fairnessScore": 1,
+        "reason": "Appears at #1 for person A and #1 for person B in the current returned recommendation lists for this category. The weaker of the two ranks receives most of the weight."
+      },
+      "minutes": 20,
+      "activity": "Listen to a few tracks together",
+      "prompt": "Which sound feels familiar to each of you? Where do your reactions split?",
+      "alternatives": [
+        {
+          "id": "artist-sufjan-stevens",
+          "name": "Sufjan Stevens",
+          "type": "artist",
+          "ranks": [
+            2,
+            2
+          ],
+          "rankScores": [
+            0.9166666666666666,
+            0.9166666666666666
+          ],
+          "fairnessScore": 0.9166666666666667,
+          "reason": "Appears at #2 for person A and #2 for person B in the current returned recommendation lists for this category. The weaker of the two ranks receives most of the weight."
+        },
+        {
+          "id": "artist-alice-coltrane",
+          "name": "Alice Coltrane",
+          "type": "artist",
+          "ranks": [
+            3,
+            3
+          ],
+          "rankScores": [
+            0.8333333333333334,
+            0.8333333333333334
+          ],
+          "fairnessScore": 0.8333333333333335,
+          "reason": "Appears at #3 for person A and #3 for person B in the current returned recommendation lists for this category. The weaker of the two ranks receives most of the weight."
+        },
+        {
+          "id": "artist-bjork",
+          "name": "Björk",
+          "type": "artist",
+          "ranks": [
+            4,
+            4
+          ],
+          "rankScores": [
+            0.75,
+            0.75
+          ],
+          "fairnessScore": 0.7500000000000001,
+          "reason": "Appears at #4 for person A and #4 for person B in the current returned recommendation lists for this category. The weaker of the two ranks receives most of the weight."
+        }
+      ]
+    },
+    {
+      "entity": {
+        "id": "movie-moonrise-kingdom",
+        "name": "Moonrise Kingdom",
+        "type": "movie",
+        "ranks": [
+          1,
+          1
+        ],
+        "rankScores": [
+          1,
+          1
+        ],
+        "fairnessScore": 1,
+        "reason": "Appears at #1 for person A and #1 for person B in the current returned recommendation lists for this category. The weaker of the two ranks receives most of the weight."
+      },
+      "minutes": 20,
+      "activity": "Watch a trailer or a short available excerpt",
+      "prompt": "Choose one frame or mood you both want to explore. What would you watch next?",
+      "alternatives": [
+        {
+          "id": "movie-perfect-days",
+          "name": "Perfect Days",
+          "type": "movie",
+          "ranks": [
+            2,
+            2
+          ],
+          "rankScores": [
+            0.9090909090909091,
+            0.9090909090909091
+          ],
+          "fairnessScore": 0.9090909090909092,
+          "reason": "Appears at #2 for person A and #2 for person B in the current returned recommendation lists for this category. The weaker of the two ranks receives most of the weight."
+        },
+        {
+          "id": "movie-paterson",
+          "name": "Paterson",
+          "type": "movie",
+          "ranks": [
+            3,
+            3
+          ],
+          "rankScores": [
+            0.8181818181818182,
+            0.8181818181818182
+          ],
+          "fairnessScore": 0.8181818181818183,
+          "reason": "Appears at #3 for person A and #3 for person B in the current returned recommendation lists for this category. The weaker of the two ranks receives most of the weight."
+        },
+        {
+          "id": "movie-the-grand-budapest-hotel",
+          "name": "The Grand Budapest Hotel",
+          "type": "movie",
+          "ranks": [
+            4,
+            4
+          ],
+          "rankScores": [
+            0.7272727272727273,
+            0.7272727272727273
+          ],
+          "fairnessScore": 0.7272727272727274,
+          "reason": "Appears at #4 for person A and #4 for person B in the current returned recommendation lists for this category. The weaker of the two ranks receives most of the weight."
+        }
+      ]
+    },
+    {
+      "entity": {
+        "id": "book-a-psalm-for-the-wild-built",
+        "name": "A Psalm for the Wild-Built",
+        "type": "book",
+        "ranks": [
+          1,
+          1
+        ],
+        "rankScores": [
+          1,
+          1
+        ],
+        "fairnessScore": 1,
+        "reason": "Appears at #1 for person A and #1 for person B in the current returned recommendation lists for this category. The weaker of the two ranks receives most of the weight."
+      },
+      "minutes": 20,
+      "activity": "Read a synopsis or a legally available sample",
+      "prompt": "Each pick one idea that caught your attention. How does it connect to something you already love?",
+      "alternatives": [
+        {
+          "id": "book-invisible-cities",
+          "name": "Invisible Cities",
+          "type": "book",
+          "ranks": [
+            2,
+            2
+          ],
+          "rankScores": [
+            0.9166666666666666,
+            0.9166666666666666
+          ],
+          "fairnessScore": 0.9166666666666667,
+          "reason": "Appears at #2 for person A and #2 for person B in the current returned recommendation lists for this category. The weaker of the two ranks receives most of the weight."
+        },
+        {
+          "id": "book-the-housekeeper-and-the-professor",
+          "name": "The Housekeeper and the Professor",
+          "type": "book",
+          "ranks": [
+            3,
+            3
+          ],
+          "rankScores": [
+            0.8333333333333334,
+            0.8333333333333334
+          ],
+          "fairnessScore": 0.8333333333333335,
+          "reason": "Appears at #3 for person A and #3 for person B in the current returned recommendation lists for this category. The weaker of the two ranks receives most of the weight."
+        },
+        {
+          "id": "book-the-wind-in-the-willows",
+          "name": "The Wind in the Willows",
+          "type": "book",
+          "ranks": [
+            4,
+            4
+          ],
+          "rankScores": [
+            0.75,
+            0.75
+          ],
+          "fairnessScore": 0.7500000000000001,
+          "reason": "Appears at #4 for person A and #4 for person B in the current returned recommendation lists for this category. The weaker of the two ranks receives most of the weight."
+        }
+      ]
+    }
+  ],
+  "totalMinutes": 60,
+  "trace": [
+    {
+      "node": "retrieve",
+      "detail": "Retrieved two independent rankings in each of three categories using curated demo fixtures."
+    },
+    {
+      "node": "negotiate",
+      "detail": "Merged by entity ID, excluded 2 selected or rejected IDs, and ranked with 80% weaker-rank + 20% average-rank weighting."
+    },
+    {
+      "node": "compose",
+      "detail": "Allocated exactly 60 minutes across 3 sampling activities and retained up to three alternatives per activity."
+    },
+    {
+      "node": "verify",
+      "detail": "Verified distinct picks, exclusions, and the exact requested time budget. Ready for feedback and replanning."
+    }
+  ],
+  "warnings": [
+    "Offline fixture rankings are synthetic and do not represent Qloo predictions."
+  ],
+  "methodology": "Live ranks refer to exclusion-filtered returned candidate windows. Ranks can change after feedback and are not comparable across runs. Scores are local rank-based negotiation scores, not Qloo affinity probabilities. Missing ranks mean unknown fit. Minutes are chosen sampling budgets, not work runtimes. No availability or licensing is verified."
+}
